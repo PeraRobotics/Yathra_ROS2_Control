@@ -1,0 +1,10 @@
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/uninstall.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/yathra_uninstall.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/yathra_serial.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/test.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/edit_cache.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/rebuild_cache.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/list_install_components.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/install.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/install/local.dir
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/CMakeFiles/install/strip.dir

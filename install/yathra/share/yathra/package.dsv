@@ -1,0 +1,8 @@
+source;share/yathra/hook/cmake_prefix_path.ps1
+source;share/yathra/hook/cmake_prefix_path.dsv
+source;share/yathra/hook/cmake_prefix_path.sh
+source;share/yathra/local_setup.bash
+source;share/yathra/local_setup.dsv
+source;share/yathra/local_setup.ps1
+source;share/yathra/local_setup.sh
+source;share/yathra/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/ament_cmake_environment_hooks/local_setup.sh

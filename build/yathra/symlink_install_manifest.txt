@@ -1,0 +1,16 @@
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/yathra_serial
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.sh
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.dsv
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.sh
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.dsv
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.bash
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.sh
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.zsh
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.dsv
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.dsv
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/packages/yathra
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig.cmake
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig-version.cmake
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.xml

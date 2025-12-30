@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=\[\e[38;5;208m\]\u@\h\[\e[0m\]:\[\e[38;5;75m\]\W\[\e[0m\]\$ /usr/bin/cmake /home/jazz/Projects/Yathra_ROS2_Control/src/yathra -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jazz/Projects/Yathra_ROS2_Control/install/yathra
+[0.265s] -- The C compiler identification is GNU 13.3.0
+[0.407s] -- The CXX compiler identification is GNU 13.3.0
+[0.440s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.602s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.602s] -- Detecting C compile features
+[0.603s] -- Detecting C compile features - done
+[0.619s] -- Detecting CXX compiler ABI info
+[0.768s] -- Detecting CXX compiler ABI info - done
+[0.786s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.786s] -- Detecting CXX compile features
+[0.787s] -- Detecting CXX compile features - done
+[0.793s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.987s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.121s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.161s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.318s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.346s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.558s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.562s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.718s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.756s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.897s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.072s] -- Added test 'lint_cmake' to check CMake code style
+[2.074s] -- Added test 'xmllint' to check XML markup files
+[2.078s] -- Configuring done (2.0s)
+[2.087s] -- Generating done (0.0s)
+[2.091s] -- Build files have been written to: /home/jazz/Projects/Yathra_ROS2_Control/build/yathra
+[2.103s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=\[\e[38;5;208m\]\u@\h\[\e[0m\]:\[\e[38;5;75m\]\W\[\e[0m\]\$ /usr/bin/cmake /home/jazz/Projects/Yathra_ROS2_Control/src/yathra -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jazz/Projects/Yathra_ROS2_Control/install/yathra
+[2.106s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=\[\e[38;5;208m\]\u@\h\[\e[0m\]:\[\e[38;5;75m\]\W\[\e[0m\]\$ /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8
+[2.168s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=\[\e[38;5;208m\]\u@\h\[\e[0m\]:\[\e[38;5;75m\]\W\[\e[0m\]\$ /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8
+[2.183s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=\[\e[38;5;208m\]\u@\h\[\e[0m\]:\[\e[38;5;75m\]\W\[\e[0m\]\$ /usr/bin/cmake --install /home/jazz/Projects/Yathra_ROS2_Control/build/yathra
+[2.193s] -- Install configuration: ""
+[2.196s] -- Execute custom install script
+[2.196s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra
+[2.209s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra
+[2.225s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.sh
+[2.239s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.dsv
+[2.253s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.sh
+[2.267s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.dsv
+[2.284s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.bash
+[2.307s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.sh
+[2.326s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.zsh
+[2.347s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.dsv
+[2.362s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.dsv
+[2.381s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/packages/yathra
+[2.394s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig.cmake
+[2.406s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig-version.cmake
+[2.418s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.xml
+[2.434s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=\[\e[38;5;208m\]\u@\h\[\e[0m\]:\[\e[38;5;75m\]\W\[\e[0m\]\$ /usr/bin/cmake --install /home/jazz/Projects/Yathra_ROS2_Control/build/yathra

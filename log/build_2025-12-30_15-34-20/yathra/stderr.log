@@ -1,0 +1,10 @@
+[01m[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:[m[K In member function ‘[01m[Kbool YathraSerialNode::[01;32m[Kopen_serial_port[m[K(const std::string&, int)[m[K’:
+[01m[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:98:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbaud_rate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   98 | ::string& port, [01;35m[Kint baud_rate[m[K) {
+      |                 [01;35m[K~~~~^~~~~~~~~[m[K
+
+[01m[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:[m[K In member function ‘[01m[Kvoid YathraSerialNode::[01;32m[Kread_loop[m[K()[m[K’:
+[01m[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:167:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kheader_match[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  167 |                bool [01;35m[Kheader_match[m[K = true;
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+

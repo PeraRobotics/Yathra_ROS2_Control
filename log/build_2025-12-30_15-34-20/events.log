@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.000624] (yathra) JobQueued: {'identifier': 'yathra', 'dependencies': OrderedDict()}
+[0.000857] (yathra) JobStarted: {'identifier': 'yathra'}
+[0.014718] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'cmake'}
+[0.015734] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'build'}
+[0.016810] (yathra) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', '--', '-j8', '-l8'], 'cwd': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'MAIL': '/var/spool/mail/jazz', 'USER': 'jazz', 'HOSTNAME': 'fedora', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XDG_CACHE_HOME': '/home/jazz/.cache', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/jazz', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/jazz/Projects/Yathra_ROS2_Control/src', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'gnome', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\\e[38;5;208m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[38;5;75m\\]\\W\\[\\e[0m\\]\\$', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2843', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '3105', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'XDG_STATE_HOME': '/home/jazz/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '268844', 'MOZ_GMP_PATH': '/usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed', 'DEBUGINFOD_URLS': 'ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jazz', 'MANAGERPIDFDID': '2844', 'JOURNAL_STREAM': '9:25326', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'USERNAME': 'jazz', 'TERM': 'xterm-256color', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignoredups', 'PATH': '/opt/ros/jazzy/bin:/home/jazz/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/jazz/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/jazz/.local/bin:/home/jazz/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin', 'GDM_LANG': 'en_US.UTF-8', 'INVOCATION_ID': 'e4076e8be2a94d06bc7f3843f84b4845', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'HISTSIZE': '1000', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XDG_DATA_HOME': '/home/jazz/.local/share', 'XDG_CONFIG_HOME': '/home/jazz/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V7RHI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b97ed8d760.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'gnome', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'DEBUGINFOD_IMA_CERT_PATH': '/etc/keys/ima:', 'GPG_TTY': '/dev/pts/2', 'PWD': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'CONTAINER_ID': 'ros2_jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/home/jazz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'EDITOR': '/usr/bin/nano', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.084544] (yathra) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099622] (-) TimerEvent: {}
+[0.200020] (-) TimerEvent: {}
+[0.300384] (-) TimerEvent: {}
+[0.401286] (-) TimerEvent: {}
+[0.471381] (yathra) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.490193] (yathra) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.501406] (-) TimerEvent: {}
+[0.544253] (yathra) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.563438] (yathra) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.586572] (yathra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601509] (-) TimerEvent: {}
+[0.614805] (yathra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701625] (-) TimerEvent: {}
+[0.751397] (yathra) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.754363] (yathra) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801756] (-) TimerEvent: {}
+[0.878459] (yathra) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901897] (-) TimerEvent: {}
+[1.002250] (-) TimerEvent: {}
+[1.013958] (yathra) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.048842] (yathra) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.102399] (-) TimerEvent: {}
+[1.144528] (yathra) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.202520] (-) TimerEvent: {}
+[1.302962] (-) TimerEvent: {}
+[1.349961] (yathra) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.350366] (yathra) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.350602] (yathra) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.351736] (yathra) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.353268] (yathra) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.353431] (yathra) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.354686] (yathra) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.356536] (yathra) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.381292] (yathra) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.392069] (yathra) StdoutLine: {'line': b'-- Build files have been written to: /home/jazz/Projects/Yathra_ROS2_Control/build/yathra\n'}
+[1.403102] (-) TimerEvent: {}
+[1.446790] (yathra) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yathra_serial.dir/src/yathra_serial.cpp.o\x1b[0m\n'}
+[1.503332] (-) TimerEvent: {}
+[1.603714] (-) TimerEvent: {}
+[1.704065] (-) TimerEvent: {}
+[1.804413] (-) TimerEvent: {}
+[1.904722] (-) TimerEvent: {}
+[2.005130] (-) TimerEvent: {}
+[2.105529] (-) TimerEvent: {}
+[2.205983] (-) TimerEvent: {}
+[2.306475] (-) TimerEvent: {}
+[2.406917] (-) TimerEvent: {}
+[2.507392] (-) TimerEvent: {}
+[2.607799] (-) TimerEvent: {}
+[2.708203] (-) TimerEvent: {}
+[2.808608] (-) TimerEvent: {}
+[2.909010] (-) TimerEvent: {}
+[3.009527] (-) TimerEvent: {}
+[3.109942] (-) TimerEvent: {}
+[3.210391] (-) TimerEvent: {}
+[3.310821] (-) TimerEvent: {}
+[3.411239] (-) TimerEvent: {}
+[3.511670] (-) TimerEvent: {}
+[3.612430] (-) TimerEvent: {}
+[3.713905] (-) TimerEvent: {}
+[3.814364] (-) TimerEvent: {}
+[3.914813] (-) TimerEvent: {}
+[4.015249] (-) TimerEvent: {}
+[4.115669] (-) TimerEvent: {}
+[4.216088] (-) TimerEvent: {}
+[4.316621] (-) TimerEvent: {}
+[4.417099] (-) TimerEvent: {}
+[4.517521] (-) TimerEvent: {}
+[4.617941] (-) TimerEvent: {}
+[4.718385] (-) TimerEvent: {}
+[4.818927] (-) TimerEvent: {}
+[4.919414] (-) TimerEvent: {}
+[5.019875] (-) TimerEvent: {}
+[5.120298] (-) TimerEvent: {}
+[5.220711] (-) TimerEvent: {}
+[5.321162] (-) TimerEvent: {}
+[5.421662] (-) TimerEvent: {}
+[5.522083] (-) TimerEvent: {}
+[5.622501] (-) TimerEvent: {}
+[5.668525] (yathra) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool YathraSerialNode::\x1b[01;32m\x1b[Kopen_serial_port\x1b[m\x1b[K(const std::string&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.668958] (yathra) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:98:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbaud_rate\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.669237] (yathra) StderrLine: {'line': b'   98 | ::string& port, \x1b[01;35m\x1b[Kint baud_rate\x1b[m\x1b[K) {\n'}
+[5.669494] (yathra) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.669729] (yathra) StderrLine: {'line': b'\n'}
+[5.673765] (yathra) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YathraSerialNode::\x1b[01;32m\x1b[Kread_loop\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.674144] (yathra) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/yathra_serial.cpp:167:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kheader_match\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.674437] (yathra) StderrLine: {'line': b'  167 |                bool \x1b[01;35m\x1b[Kheader_match\x1b[m\x1b[K = true;\n'}
+[5.674692] (yathra) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.674929] (yathra) StderrLine: {'line': b'\n'}
+[5.722716] (-) TimerEvent: {}
+[5.823216] (-) TimerEvent: {}
+[5.923665] (-) TimerEvent: {}
+[6.024061] (-) TimerEvent: {}
+[6.124453] (-) TimerEvent: {}
+[6.224923] (-) TimerEvent: {}
+[6.325523] (-) TimerEvent: {}
+[6.426127] (-) TimerEvent: {}
+[6.526501] (-) TimerEvent: {}
+[6.626883] (-) TimerEvent: {}
+[6.727391] (-) TimerEvent: {}
+[6.827819] (-) TimerEvent: {}
+[6.928242] (-) TimerEvent: {}
+[7.028780] (-) TimerEvent: {}
+[7.129243] (-) TimerEvent: {}
+[7.229683] (-) TimerEvent: {}
+[7.330101] (-) TimerEvent: {}
+[7.430539] (-) TimerEvent: {}
+[7.530951] (-) TimerEvent: {}
+[7.631361] (-) TimerEvent: {}
+[7.731807] (-) TimerEvent: {}
+[7.832251] (-) TimerEvent: {}
+[7.932722] (-) TimerEvent: {}
+[8.033134] (-) TimerEvent: {}
+[8.133565] (-) TimerEvent: {}
+[8.234054] (-) TimerEvent: {}
+[8.334522] (-) TimerEvent: {}
+[8.434963] (-) TimerEvent: {}
+[8.535368] (-) TimerEvent: {}
+[8.635743] (-) TimerEvent: {}
+[8.736138] (-) TimerEvent: {}
+[8.836513] (-) TimerEvent: {}
+[8.937438] (-) TimerEvent: {}
+[9.037952] (-) TimerEvent: {}
+[9.138372] (-) TimerEvent: {}
+[9.238785] (-) TimerEvent: {}
+[9.339247] (-) TimerEvent: {}
+[9.439636] (-) TimerEvent: {}
+[9.540028] (-) TimerEvent: {}
+[9.640496] (-) TimerEvent: {}
+[9.741015] (-) TimerEvent: {}
+[9.841469] (-) TimerEvent: {}
+[9.941886] (-) TimerEvent: {}
+[10.042291] (-) TimerEvent: {}
+[10.142759] (-) TimerEvent: {}
+[10.243193] (-) TimerEvent: {}
+[10.343710] (-) TimerEvent: {}
+[10.444144] (-) TimerEvent: {}
+[10.544590] (-) TimerEvent: {}
+[10.644962] (-) TimerEvent: {}
+[10.745402] (-) TimerEvent: {}
+[10.845776] (-) TimerEvent: {}
+[10.946220] (-) TimerEvent: {}
+[11.046590] (-) TimerEvent: {}
+[11.146985] (-) TimerEvent: {}
+[11.247469] (-) TimerEvent: {}
+[11.347915] (-) TimerEvent: {}
+[11.448340] (-) TimerEvent: {}
+[11.548795] (-) TimerEvent: {}
+[11.649165] (-) TimerEvent: {}
+[11.749532] (-) TimerEvent: {}
+[11.849985] (-) TimerEvent: {}
+[11.953662] (-) TimerEvent: {}
+[12.054148] (-) TimerEvent: {}
+[12.154610] (-) TimerEvent: {}
+[12.255100] (-) TimerEvent: {}
+[12.355516] (-) TimerEvent: {}
+[12.455892] (-) TimerEvent: {}
+[12.556302] (-) TimerEvent: {}
+[12.656632] (-) TimerEvent: {}
+[12.756943] (-) TimerEvent: {}
+[12.857282] (-) TimerEvent: {}
+[12.957650] (-) TimerEvent: {}
+[13.058011] (-) TimerEvent: {}
+[13.158388] (-) TimerEvent: {}
+[13.258771] (-) TimerEvent: {}
+[13.359208] (-) TimerEvent: {}
+[13.459565] (-) TimerEvent: {}
+[13.559966] (-) TimerEvent: {}
+[13.660360] (-) TimerEvent: {}
+[13.760820] (-) TimerEvent: {}
+[13.861295] (-) TimerEvent: {}
+[13.961802] (-) TimerEvent: {}
+[14.062266] (-) TimerEvent: {}
+[14.162738] (-) TimerEvent: {}
+[14.263190] (-) TimerEvent: {}
+[14.363765] (-) TimerEvent: {}
+[14.464269] (-) TimerEvent: {}
+[14.564725] (-) TimerEvent: {}
+[14.665152] (-) TimerEvent: {}
+[14.765558] (-) TimerEvent: {}
+[14.865933] (-) TimerEvent: {}
+[14.966246] (-) TimerEvent: {}
+[15.066607] (-) TimerEvent: {}
+[15.167009] (-) TimerEvent: {}
+[15.267463] (-) TimerEvent: {}
+[15.367781] (-) TimerEvent: {}
+[15.468122] (-) TimerEvent: {}
+[15.568469] (-) TimerEvent: {}
+[15.668799] (-) TimerEvent: {}
+[15.769167] (-) TimerEvent: {}
+[15.869561] (-) TimerEvent: {}
+[15.969921] (-) TimerEvent: {}
+[16.070266] (-) TimerEvent: {}
+[16.170616] (-) TimerEvent: {}
+[16.270947] (-) TimerEvent: {}
+[16.371400] (-) TimerEvent: {}
+[16.471734] (-) TimerEvent: {}
+[16.572171] (-) TimerEvent: {}
+[16.672550] (-) TimerEvent: {}
+[16.772949] (-) TimerEvent: {}
+[16.873413] (-) TimerEvent: {}
+[16.973751] (-) TimerEvent: {}
+[17.074184] (-) TimerEvent: {}
+[17.174553] (-) TimerEvent: {}
+[17.274892] (-) TimerEvent: {}
+[17.375257] (-) TimerEvent: {}
+[17.475605] (-) TimerEvent: {}
+[17.575960] (-) TimerEvent: {}
+[17.676306] (-) TimerEvent: {}
+[17.776790] (-) TimerEvent: {}
+[17.877171] (-) TimerEvent: {}
+[17.977504] (-) TimerEvent: {}
+[18.077848] (-) TimerEvent: {}
+[18.178238] (-) TimerEvent: {}
+[18.278594] (-) TimerEvent: {}
+[18.379075] (-) TimerEvent: {}
+[18.479527] (-) TimerEvent: {}
+[18.580006] (-) TimerEvent: {}
+[18.680538] (-) TimerEvent: {}
+[18.780903] (-) TimerEvent: {}
+[18.881278] (-) TimerEvent: {}
+[18.981757] (-) TimerEvent: {}
+[19.082422] (-) TimerEvent: {}
+[19.183171] (-) TimerEvent: {}
+[19.283520] (-) TimerEvent: {}
+[19.383961] (-) TimerEvent: {}
+[19.484403] (-) TimerEvent: {}
+[19.584890] (-) TimerEvent: {}
+[19.685408] (-) TimerEvent: {}
+[19.785942] (-) TimerEvent: {}
+[19.886439] (-) TimerEvent: {}
+[19.986962] (-) TimerEvent: {}
+[20.072871] (yathra) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable yathra_serial\x1b[0m\n'}
+[20.087107] (-) TimerEvent: {}
+[20.187568] (-) TimerEvent: {}
+[20.287919] (-) TimerEvent: {}
+[20.388284] (-) TimerEvent: {}
+[20.488690] (-) TimerEvent: {}
+[20.589067] (-) TimerEvent: {}
+[20.689511] (-) TimerEvent: {}
+[20.789927] (-) TimerEvent: {}
+[20.791934] (yathra) StdoutLine: {'line': b'[100%] Built target yathra_serial\n'}
+[20.810010] (yathra) CommandEnded: {'returncode': 0}
+[20.811500] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'install'}
+[20.832583] (yathra) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra'], 'cwd': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'MAIL': '/var/spool/mail/jazz', 'USER': 'jazz', 'HOSTNAME': 'fedora', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XDG_CACHE_HOME': '/home/jazz/.cache', 'SHLVL': '4', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/jazz', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/jazz/Projects/Yathra_ROS2_Control/src', 'TERM_PROGRAM_VERSION': '1.107.1', 'DESKTOP_SESSION': 'gnome', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\\e[38;5;208m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[38;5;75m\\]\\W\\[\\e[0m\\]\\$', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2843', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '3105', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'XDG_STATE_HOME': '/home/jazz/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '268844', 'MOZ_GMP_PATH': '/usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed', 'DEBUGINFOD_URLS': 'ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jazz', 'MANAGERPIDFDID': '2844', 'JOURNAL_STREAM': '9:25326', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'USERNAME': 'jazz', 'TERM': 'xterm-256color', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignoredups', 'PATH': '/opt/ros/jazzy/bin:/home/jazz/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/jazz/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/jazz/.local/bin:/home/jazz/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin', 'GDM_LANG': 'en_US.UTF-8', 'INVOCATION_ID': 'e4076e8be2a94d06bc7f3843f84b4845', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'HISTSIZE': '1000', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XDG_DATA_HOME': '/home/jazz/.local/share', 'XDG_CONFIG_HOME': '/home/jazz/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'gnome', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V7RHI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b97ed8d760.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'gnome', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'DEBUGINFOD_IMA_CERT_PATH': '/etc/keys/ima:', 'GPG_TTY': '/dev/pts/2', 'PWD': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'CONTAINER_ID': 'ros2_jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/home/jazz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'EDITOR': '/usr/bin/nano', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[20.843919] (yathra) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.845273] (yathra) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.846135] (yathra) StdoutLine: {'line': b'-- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/yathra_serial\n'}
+[20.859230] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra\n'}
+[20.859676] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra\n'}
+[20.860023] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.sh\n'}
+[20.860641] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.dsv\n'}
+[20.861073] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.sh\n'}
+[20.861582] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.dsv\n'}
+[20.861989] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.bash\n'}
+[20.862440] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.sh\n'}
+[20.862899] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.zsh\n'}
+[20.863398] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.dsv\n'}
+[20.863778] (yathra) StdoutLine: {'line': b'-- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.dsv\n'}
+[20.876117] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/packages/yathra\n'}
+[20.876391] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig.cmake\n'}
+[20.876672] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig-version.cmake\n'}
+[20.877100] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.xml\n'}
+[20.880385] (yathra) CommandEnded: {'returncode': 0}
+[20.890038] (-) TimerEvent: {}
+[20.910354] (yathra) JobEnded: {'identifier': 'yathra', 'rc': 0}
+[20.911863] (-) EventReactorShutdown: {}
