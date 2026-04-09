@@ -1,0 +1,27 @@
+[0.078s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8
+[0.789s] [ 50%] Built target yathra_serial
+[0.908s] [ 75%] [32mBuilding CXX object CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o[0m
+[37.685s] [100%] [32m[1mLinking CXX executable dummy_depth[0m
+[39.141s] [100%] Built target dummy_depth
+[39.213s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8
+[39.278s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jazz/Projects/Yathra_ROS2_Control/build/yathra
+[39.318s] -- Install configuration: ""
+[39.327s] -- Execute custom install script
+[39.329s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/dummy_depth
+[39.330s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/yathra_serial
+[39.331s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra
+[39.334s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra
+[39.335s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.sh
+[39.337s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.dsv
+[39.338s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.sh
+[39.339s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.dsv
+[39.341s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.bash
+[39.342s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.sh
+[39.343s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.zsh
+[39.344s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.dsv
+[39.345s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.dsv
+[39.407s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/packages/yathra
+[39.409s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig.cmake
+[39.411s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig-version.cmake
+[39.413s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.xml
+[39.428s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jazz/Projects/Yathra_ROS2_Control/build/yathra

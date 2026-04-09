@@ -310,8 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "yathra_serial" "DESTINATION" "lib/yathra")
+# install("TARGETS" "dummy_depth" "DESTINATION" "lib/yathra")
 include("/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "yathra_serial" "DESTINATION" "lib/yathra")
+include("/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yathra" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jazz/Projects/Yathra_ROS2_Control/src/yathra" FILES "/home/jazz/Projects/Yathra_ROS2_Control/build/yathra/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yathra" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

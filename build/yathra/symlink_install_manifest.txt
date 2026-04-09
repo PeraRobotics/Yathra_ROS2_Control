@@ -1,3 +1,4 @@
+/home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/dummy_depth
 /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/yathra_serial
 /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra
 /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra

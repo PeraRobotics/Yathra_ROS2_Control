@@ -1,0 +1,461 @@
+[0.000000] (-) TimerEvent: {}
+[0.001032] (yathra) JobQueued: {'identifier': 'yathra', 'dependencies': OrderedDict()}
+[0.003908] (yathra) JobStarted: {'identifier': 'yathra'}
+[0.086958] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'cmake'}
+[0.099325] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'build'}
+[0.099848] (-) TimerEvent: {}
+[0.107168] (yathra) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', '--', '-j8', '-l8'], 'cwd': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'env': OrderedDict({'USER': 'root', 'HOSTNAME': 'fedora', 'GIT_ASKPASS': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/helpers/browser.sh', 'HOME': '/home/jazz', 'TERM_PROGRAM_VERSION': '1.107.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-47bb7fe6-eec2-4f08-af84-d84887f24b0d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e[38;5;208m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[38;5;75m\\]\\W\\[\\e[0m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-403388bb-1277-4416-82f2-4c19b73c3b92.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'PATH': '/home/jazz/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jazz/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/opt/ros/jazzy/bin:/home/jazz/.local/bin:/home/jazz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-403388bb-1277-4416-82f2-4c19b73c3b92.sock","/tmp/.X11-unix/X2","/home/jazz/.gnupg/S.gpg-agent"]', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-85dcb23a1e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-403388bb-1277-4416-82f2-4c19b73c3b92.sock', 'AMENT_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install/yathra:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X2', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'CONTAINER_ID': 'ros2_jazzy', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install/yathra:/opt/ros/jazzy'}), 'shell': False}
+[0.200459] (-) TimerEvent: {}
+[0.304618] (-) TimerEvent: {}
+[0.409978] (-) TimerEvent: {}
+[0.511404] (-) TimerEvent: {}
+[0.612858] (-) TimerEvent: {}
+[0.714140] (-) TimerEvent: {}
+[0.776994] (yathra) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.814431] (-) TimerEvent: {}
+[0.916099] (-) TimerEvent: {}
+[1.017681] (-) TimerEvent: {}
+[1.118934] (-) TimerEvent: {}
+[1.220524] (-) TimerEvent: {}
+[1.322168] (-) TimerEvent: {}
+[1.423557] (-) TimerEvent: {}
+[1.524910] (-) TimerEvent: {}
+[1.626191] (-) TimerEvent: {}
+[1.728160] (-) TimerEvent: {}
+[1.830639] (-) TimerEvent: {}
+[1.932047] (-) TimerEvent: {}
+[2.033788] (-) TimerEvent: {}
+[2.135103] (-) TimerEvent: {}
+[2.238052] (-) TimerEvent: {}
+[2.339885] (-) TimerEvent: {}
+[2.441172] (-) TimerEvent: {}
+[2.539145] (yathra) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.541393] (-) TimerEvent: {}
+[2.636490] (yathra) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.641625] (-) TimerEvent: {}
+[2.742768] (-) TimerEvent: {}
+[2.844005] (-) TimerEvent: {}
+[2.945199] (-) TimerEvent: {}
+[3.046411] (-) TimerEvent: {}
+[3.050660] (yathra) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.146698] (-) TimerEvent: {}
+[3.166738] (yathra) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.247044] (-) TimerEvent: {}
+[3.317228] (yathra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.347401] (-) TimerEvent: {}
+[3.448731] (-) TimerEvent: {}
+[3.490526] (yathra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.549067] (-) TimerEvent: {}
+[3.650146] (-) TimerEvent: {}
+[3.751408] (-) TimerEvent: {}
+[3.852422] (-) TimerEvent: {}
+[3.953518] (-) TimerEvent: {}
+[4.054585] (-) TimerEvent: {}
+[4.155724] (-) TimerEvent: {}
+[4.164667] (yathra) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.183052] (yathra) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.256053] (-) TimerEvent: {}
+[4.357404] (-) TimerEvent: {}
+[4.458579] (-) TimerEvent: {}
+[4.559848] (-) TimerEvent: {}
+[4.661080] (-) TimerEvent: {}
+[4.762461] (-) TimerEvent: {}
+[4.786560] (yathra) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.862721] (-) TimerEvent: {}
+[4.963985] (-) TimerEvent: {}
+[5.065437] (-) TimerEvent: {}
+[5.166754] (-) TimerEvent: {}
+[5.268066] (-) TimerEvent: {}
+[5.369413] (-) TimerEvent: {}
+[5.458053] (yathra) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[5.469655] (-) TimerEvent: {}
+[5.570787] (-) TimerEvent: {}
+[5.604433] (yathra) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.671164] (-) TimerEvent: {}
+[5.772340] (-) TimerEvent: {}
+[5.873366] (-) TimerEvent: {}
+[5.974450] (-) TimerEvent: {}
+[6.022757] (yathra) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.074761] (-) TimerEvent: {}
+[6.176015] (-) TimerEvent: {}
+[6.277205] (-) TimerEvent: {}
+[6.378464] (-) TimerEvent: {}
+[6.479968] (-) TimerEvent: {}
+[6.581017] (-) TimerEvent: {}
+[6.682102] (-) TimerEvent: {}
+[6.783415] (-) TimerEvent: {}
+[6.849006] (yathra) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.851376] (yathra) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.852345] (yathra) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.856971] (yathra) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.865371] (yathra) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.866451] (yathra) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.868984] (yathra) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.879070] (yathra) StdoutLine: {'line': b'-- Configuring done (6.2s)\n'}
+[6.883665] (-) TimerEvent: {}
+[6.984704] (-) TimerEvent: {}
+[7.040054] (yathra) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.084995] (-) TimerEvent: {}
+[7.091745] (yathra) StdoutLine: {'line': b'-- Build files have been written to: /home/jazz/Projects/Yathra_ROS2_Control/build/yathra\n'}
+[7.185335] (-) TimerEvent: {}
+[7.287397] (-) TimerEvent: {}
+[7.344101] (yathra) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o\x1b[0m\n'}
+[7.387708] (-) TimerEvent: {}
+[7.489057] (-) TimerEvent: {}
+[7.590340] (-) TimerEvent: {}
+[7.656687] (yathra) StdoutLine: {'line': b'[ 75%] Built target yathra_serial\n'}
+[7.690605] (-) TimerEvent: {}
+[7.791883] (-) TimerEvent: {}
+[7.896777] (-) TimerEvent: {}
+[8.000610] (-) TimerEvent: {}
+[8.104526] (-) TimerEvent: {}
+[8.205882] (-) TimerEvent: {}
+[8.307424] (-) TimerEvent: {}
+[8.412976] (-) TimerEvent: {}
+[8.514688] (-) TimerEvent: {}
+[8.615954] (-) TimerEvent: {}
+[8.716995] (-) TimerEvent: {}
+[8.818017] (-) TimerEvent: {}
+[8.919184] (-) TimerEvent: {}
+[9.020498] (-) TimerEvent: {}
+[9.122016] (-) TimerEvent: {}
+[9.223459] (-) TimerEvent: {}
+[9.324604] (-) TimerEvent: {}
+[9.425684] (-) TimerEvent: {}
+[9.526867] (-) TimerEvent: {}
+[9.628089] (-) TimerEvent: {}
+[9.729403] (-) TimerEvent: {}
+[9.830584] (-) TimerEvent: {}
+[9.931685] (-) TimerEvent: {}
+[10.032952] (-) TimerEvent: {}
+[10.134317] (-) TimerEvent: {}
+[10.235463] (-) TimerEvent: {}
+[10.336671] (-) TimerEvent: {}
+[10.437693] (-) TimerEvent: {}
+[10.538865] (-) TimerEvent: {}
+[10.640067] (-) TimerEvent: {}
+[10.741456] (-) TimerEvent: {}
+[10.842781] (-) TimerEvent: {}
+[10.943902] (-) TimerEvent: {}
+[11.044952] (-) TimerEvent: {}
+[11.146147] (-) TimerEvent: {}
+[11.247397] (-) TimerEvent: {}
+[11.348568] (-) TimerEvent: {}
+[11.449779] (-) TimerEvent: {}
+[11.551276] (-) TimerEvent: {}
+[11.652320] (-) TimerEvent: {}
+[11.753520] (-) TimerEvent: {}
+[11.854529] (-) TimerEvent: {}
+[11.955793] (-) TimerEvent: {}
+[12.057147] (-) TimerEvent: {}
+[12.158475] (-) TimerEvent: {}
+[12.259687] (-) TimerEvent: {}
+[12.360902] (-) TimerEvent: {}
+[12.461980] (-) TimerEvent: {}
+[12.563220] (-) TimerEvent: {}
+[12.664362] (-) TimerEvent: {}
+[12.765346] (-) TimerEvent: {}
+[12.866468] (-) TimerEvent: {}
+[12.967480] (-) TimerEvent: {}
+[13.068577] (-) TimerEvent: {}
+[13.169758] (-) TimerEvent: {}
+[13.270873] (-) TimerEvent: {}
+[13.371995] (-) TimerEvent: {}
+[13.473171] (-) TimerEvent: {}
+[13.574104] (-) TimerEvent: {}
+[13.675167] (-) TimerEvent: {}
+[13.776305] (-) TimerEvent: {}
+[13.877386] (-) TimerEvent: {}
+[13.978745] (-) TimerEvent: {}
+[14.080146] (-) TimerEvent: {}
+[14.181535] (-) TimerEvent: {}
+[14.282835] (-) TimerEvent: {}
+[14.383942] (-) TimerEvent: {}
+[14.485088] (-) TimerEvent: {}
+[14.586310] (-) TimerEvent: {}
+[14.687560] (-) TimerEvent: {}
+[14.788645] (-) TimerEvent: {}
+[14.889748] (-) TimerEvent: {}
+[14.990892] (-) TimerEvent: {}
+[15.092403] (-) TimerEvent: {}
+[15.193762] (-) TimerEvent: {}
+[15.295115] (-) TimerEvent: {}
+[15.396541] (-) TimerEvent: {}
+[15.497793] (-) TimerEvent: {}
+[15.599012] (-) TimerEvent: {}
+[15.700107] (-) TimerEvent: {}
+[15.801363] (-) TimerEvent: {}
+[15.902425] (-) TimerEvent: {}
+[16.003487] (-) TimerEvent: {}
+[16.104637] (-) TimerEvent: {}
+[16.205773] (-) TimerEvent: {}
+[16.306811] (-) TimerEvent: {}
+[16.407863] (-) TimerEvent: {}
+[16.508837] (-) TimerEvent: {}
+[16.609852] (-) TimerEvent: {}
+[16.711035] (-) TimerEvent: {}
+[16.812175] (-) TimerEvent: {}
+[16.913273] (-) TimerEvent: {}
+[17.014200] (-) TimerEvent: {}
+[17.115295] (-) TimerEvent: {}
+[17.216318] (-) TimerEvent: {}
+[17.317353] (-) TimerEvent: {}
+[17.418221] (-) TimerEvent: {}
+[17.519095] (-) TimerEvent: {}
+[17.619933] (-) TimerEvent: {}
+[17.720938] (-) TimerEvent: {}
+[17.821909] (-) TimerEvent: {}
+[17.922924] (-) TimerEvent: {}
+[18.023951] (-) TimerEvent: {}
+[18.124884] (-) TimerEvent: {}
+[18.225829] (-) TimerEvent: {}
+[18.326752] (-) TimerEvent: {}
+[18.427885] (-) TimerEvent: {}
+[18.529013] (-) TimerEvent: {}
+[18.630103] (-) TimerEvent: {}
+[18.731091] (-) TimerEvent: {}
+[18.832049] (-) TimerEvent: {}
+[18.932889] (-) TimerEvent: {}
+[19.033948] (-) TimerEvent: {}
+[19.135015] (-) TimerEvent: {}
+[19.236174] (-) TimerEvent: {}
+[19.337707] (-) TimerEvent: {}
+[19.438878] (-) TimerEvent: {}
+[19.540043] (-) TimerEvent: {}
+[19.641167] (-) TimerEvent: {}
+[19.742283] (-) TimerEvent: {}
+[19.843224] (-) TimerEvent: {}
+[19.944110] (-) TimerEvent: {}
+[20.045070] (-) TimerEvent: {}
+[20.145947] (-) TimerEvent: {}
+[20.246750] (-) TimerEvent: {}
+[20.347632] (-) TimerEvent: {}
+[20.449350] (-) TimerEvent: {}
+[20.550936] (-) TimerEvent: {}
+[20.652075] (-) TimerEvent: {}
+[20.753094] (-) TimerEvent: {}
+[20.854019] (-) TimerEvent: {}
+[20.955034] (-) TimerEvent: {}
+[21.056537] (-) TimerEvent: {}
+[21.157866] (-) TimerEvent: {}
+[21.259226] (-) TimerEvent: {}
+[21.360443] (-) TimerEvent: {}
+[21.461582] (-) TimerEvent: {}
+[21.567511] (-) TimerEvent: {}
+[21.670527] (-) TimerEvent: {}
+[21.771920] (-) TimerEvent: {}
+[21.873330] (-) TimerEvent: {}
+[21.974538] (-) TimerEvent: {}
+[22.077533] (-) TimerEvent: {}
+[22.178874] (-) TimerEvent: {}
+[22.280278] (-) TimerEvent: {}
+[22.381365] (-) TimerEvent: {}
+[22.483623] (-) TimerEvent: {}
+[22.584790] (-) TimerEvent: {}
+[22.685720] (-) TimerEvent: {}
+[22.786667] (-) TimerEvent: {}
+[22.887699] (-) TimerEvent: {}
+[22.988655] (-) TimerEvent: {}
+[23.089790] (-) TimerEvent: {}
+[23.190877] (-) TimerEvent: {}
+[23.291850] (-) TimerEvent: {}
+[23.392746] (-) TimerEvent: {}
+[23.493834] (-) TimerEvent: {}
+[23.594810] (-) TimerEvent: {}
+[23.695674] (-) TimerEvent: {}
+[23.796416] (-) TimerEvent: {}
+[23.897225] (-) TimerEvent: {}
+[23.998090] (-) TimerEvent: {}
+[24.098929] (-) TimerEvent: {}
+[24.199862] (-) TimerEvent: {}
+[24.300872] (-) TimerEvent: {}
+[24.401855] (-) TimerEvent: {}
+[24.502907] (-) TimerEvent: {}
+[24.604062] (-) TimerEvent: {}
+[24.705108] (-) TimerEvent: {}
+[24.806131] (-) TimerEvent: {}
+[24.907296] (-) TimerEvent: {}
+[25.008162] (-) TimerEvent: {}
+[25.109161] (-) TimerEvent: {}
+[25.210330] (-) TimerEvent: {}
+[25.311395] (-) TimerEvent: {}
+[25.412401] (-) TimerEvent: {}
+[25.513370] (-) TimerEvent: {}
+[25.614350] (-) TimerEvent: {}
+[25.715303] (-) TimerEvent: {}
+[25.816113] (-) TimerEvent: {}
+[25.916887] (-) TimerEvent: {}
+[26.017731] (-) TimerEvent: {}
+[26.118604] (-) TimerEvent: {}
+[26.219482] (-) TimerEvent: {}
+[26.320432] (-) TimerEvent: {}
+[26.421341] (-) TimerEvent: {}
+[26.522218] (-) TimerEvent: {}
+[26.623031] (-) TimerEvent: {}
+[26.723875] (-) TimerEvent: {}
+[26.824689] (-) TimerEvent: {}
+[26.925429] (-) TimerEvent: {}
+[27.026226] (-) TimerEvent: {}
+[27.127162] (-) TimerEvent: {}
+[27.228223] (-) TimerEvent: {}
+[27.329106] (-) TimerEvent: {}
+[27.430081] (-) TimerEvent: {}
+[27.530988] (-) TimerEvent: {}
+[27.631902] (-) TimerEvent: {}
+[27.732792] (-) TimerEvent: {}
+[27.833695] (-) TimerEvent: {}
+[27.934574] (-) TimerEvent: {}
+[28.035467] (-) TimerEvent: {}
+[28.136538] (-) TimerEvent: {}
+[28.237566] (-) TimerEvent: {}
+[28.338710] (-) TimerEvent: {}
+[28.439760] (-) TimerEvent: {}
+[28.540716] (-) TimerEvent: {}
+[28.641680] (-) TimerEvent: {}
+[28.742648] (-) TimerEvent: {}
+[28.843543] (-) TimerEvent: {}
+[28.944380] (-) TimerEvent: {}
+[29.045299] (-) TimerEvent: {}
+[29.146211] (-) TimerEvent: {}
+[29.247099] (-) TimerEvent: {}
+[29.348227] (-) TimerEvent: {}
+[29.449350] (-) TimerEvent: {}
+[29.550758] (-) TimerEvent: {}
+[29.651616] (-) TimerEvent: {}
+[29.752556] (-) TimerEvent: {}
+[29.853467] (-) TimerEvent: {}
+[29.954679] (-) TimerEvent: {}
+[30.055612] (-) TimerEvent: {}
+[30.156742] (-) TimerEvent: {}
+[30.257897] (-) TimerEvent: {}
+[30.358840] (-) TimerEvent: {}
+[30.460107] (-) TimerEvent: {}
+[30.560978] (-) TimerEvent: {}
+[30.661894] (-) TimerEvent: {}
+[30.762805] (-) TimerEvent: {}
+[30.863631] (-) TimerEvent: {}
+[30.964564] (-) TimerEvent: {}
+[31.065507] (-) TimerEvent: {}
+[31.166358] (-) TimerEvent: {}
+[31.267219] (-) TimerEvent: {}
+[31.368177] (-) TimerEvent: {}
+[31.469091] (-) TimerEvent: {}
+[31.570282] (-) TimerEvent: {}
+[31.671383] (-) TimerEvent: {}
+[31.772346] (-) TimerEvent: {}
+[31.873193] (-) TimerEvent: {}
+[31.974099] (-) TimerEvent: {}
+[32.075126] (-) TimerEvent: {}
+[32.176164] (-) TimerEvent: {}
+[32.277184] (-) TimerEvent: {}
+[32.378080] (-) TimerEvent: {}
+[32.479111] (-) TimerEvent: {}
+[32.580113] (-) TimerEvent: {}
+[32.680989] (-) TimerEvent: {}
+[32.781871] (-) TimerEvent: {}
+[32.882792] (-) TimerEvent: {}
+[32.983705] (-) TimerEvent: {}
+[33.084940] (-) TimerEvent: {}
+[33.186132] (-) TimerEvent: {}
+[33.287313] (-) TimerEvent: {}
+[33.388350] (-) TimerEvent: {}
+[33.489230] (-) TimerEvent: {}
+[33.590102] (-) TimerEvent: {}
+[33.691028] (-) TimerEvent: {}
+[33.791905] (-) TimerEvent: {}
+[33.892887] (-) TimerEvent: {}
+[33.993666] (-) TimerEvent: {}
+[34.094431] (-) TimerEvent: {}
+[34.195320] (-) TimerEvent: {}
+[34.296161] (-) TimerEvent: {}
+[34.396990] (-) TimerEvent: {}
+[34.497968] (-) TimerEvent: {}
+[34.598963] (-) TimerEvent: {}
+[34.700037] (-) TimerEvent: {}
+[34.801018] (-) TimerEvent: {}
+[34.901962] (-) TimerEvent: {}
+[35.002885] (-) TimerEvent: {}
+[35.103802] (-) TimerEvent: {}
+[35.204770] (-) TimerEvent: {}
+[35.306491] (-) TimerEvent: {}
+[35.408518] (-) TimerEvent: {}
+[35.511837] (-) TimerEvent: {}
+[35.614162] (-) TimerEvent: {}
+[35.715216] (-) TimerEvent: {}
+[35.816129] (-) TimerEvent: {}
+[35.917039] (-) TimerEvent: {}
+[36.018210] (-) TimerEvent: {}
+[36.119373] (-) TimerEvent: {}
+[36.220542] (-) TimerEvent: {}
+[36.321656] (-) TimerEvent: {}
+[36.422744] (-) TimerEvent: {}
+[36.523872] (-) TimerEvent: {}
+[36.624718] (-) TimerEvent: {}
+[36.725661] (-) TimerEvent: {}
+[36.826695] (-) TimerEvent: {}
+[36.927594] (-) TimerEvent: {}
+[37.028454] (-) TimerEvent: {}
+[37.129357] (-) TimerEvent: {}
+[37.230385] (-) TimerEvent: {}
+[37.331432] (-) TimerEvent: {}
+[37.432415] (-) TimerEvent: {}
+[37.533299] (-) TimerEvent: {}
+[37.634202] (-) TimerEvent: {}
+[37.735114] (-) TimerEvent: {}
+[37.836056] (-) TimerEvent: {}
+[37.936919] (-) TimerEvent: {}
+[38.037850] (-) TimerEvent: {}
+[38.138725] (-) TimerEvent: {}
+[38.239611] (-) TimerEvent: {}
+[38.340623] (-) TimerEvent: {}
+[38.441445] (-) TimerEvent: {}
+[38.542367] (-) TimerEvent: {}
+[38.643353] (-) TimerEvent: {}
+[38.744353] (-) TimerEvent: {}
+[38.801653] (yathra) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dummy_depth\x1b[0m\n'}
+[38.844574] (-) TimerEvent: {}
+[38.945483] (-) TimerEvent: {}
+[39.046426] (-) TimerEvent: {}
+[39.147597] (-) TimerEvent: {}
+[39.248880] (-) TimerEvent: {}
+[39.350111] (-) TimerEvent: {}
+[39.451430] (-) TimerEvent: {}
+[39.552730] (-) TimerEvent: {}
+[39.654086] (-) TimerEvent: {}
+[39.755126] (-) TimerEvent: {}
+[39.856162] (-) TimerEvent: {}
+[39.957323] (-) TimerEvent: {}
+[40.058413] (-) TimerEvent: {}
+[40.159606] (-) TimerEvent: {}
+[40.260589] (-) TimerEvent: {}
+[40.361433] (-) TimerEvent: {}
+[40.379135] (yathra) StdoutLine: {'line': b'[100%] Built target dummy_depth\n'}
+[40.436377] (yathra) CommandEnded: {'returncode': 0}
+[40.440097] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'install'}
+[40.461696] (-) TimerEvent: {}
+[40.487759] (yathra) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra'], 'cwd': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'env': OrderedDict({'USER': 'root', 'HOSTNAME': 'fedora', 'GIT_ASKPASS': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/helpers/browser.sh', 'HOME': '/home/jazz', 'TERM_PROGRAM_VERSION': '1.107.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-47bb7fe6-eec2-4f08-af84-d84887f24b0d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e[38;5;208m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[38;5;75m\\]\\W\\[\\e[0m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-403388bb-1277-4416-82f2-4c19b73c3b92.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'PATH': '/home/jazz/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jazz/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/opt/ros/jazzy/bin:/home/jazz/.local/bin:/home/jazz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-403388bb-1277-4416-82f2-4c19b73c3b92.sock","/tmp/.X11-unix/X2","/home/jazz/.gnupg/S.gpg-agent"]', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-85dcb23a1e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-403388bb-1277-4416-82f2-4c19b73c3b92.sock', 'AMENT_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install/yathra:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X2', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'CONTAINER_ID': 'ros2_jazzy', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install/yathra:/opt/ros/jazzy'}), 'shell': False}
+[40.527865] (yathra) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.536399] (yathra) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[40.537964] (yathra) StdoutLine: {'line': b'-- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/dummy_depth\n'}
+[40.561876] (-) TimerEvent: {}
+[40.579170] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/yathra_serial\n'}
+[40.581068] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra\n'}
+[40.583401] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra\n'}
+[40.585750] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.sh\n'}
+[40.587828] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.dsv\n'}
+[40.590409] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.sh\n'}
+[40.591863] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.dsv\n'}
+[40.593867] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.bash\n'}
+[40.595788] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.sh\n'}
+[40.597549] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.zsh\n'}
+[40.599433] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.dsv\n'}
+[40.600736] (yathra) StdoutLine: {'line': b'-- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.dsv\n'}
+[40.658043] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/packages/yathra\n'}
+[40.659428] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig.cmake\n'}
+[40.660551] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig-version.cmake\n'}
+[40.662088] (-) TimerEvent: {}
+[40.662870] (yathra) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.xml\n'}
+[40.670933] (yathra) CommandEnded: {'returncode': 0}
+[40.762754] (-) TimerEvent: {}
+[40.800637] (yathra) JobEnded: {'identifier': 'yathra', 'rc': 0}
+[40.806617] (-) EventReactorShutdown: {}

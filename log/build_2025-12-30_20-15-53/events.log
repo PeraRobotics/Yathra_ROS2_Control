@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.001018] (yathra) JobQueued: {'identifier': 'yathra', 'dependencies': OrderedDict()}
+[0.001433] (yathra) JobStarted: {'identifier': 'yathra'}
+[0.074347] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'cmake'}
+[0.081329] (yathra) JobProgress: {'identifier': 'yathra', 'progress': 'build'}
+[0.086214] (yathra) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', '--', '-j8', '-l8'], 'cwd': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'env': OrderedDict({'USER': 'root', 'HOSTNAME': 'fedora', 'GIT_ASKPASS': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/helpers/browser.sh', 'HOME': '/home/jazz', 'TERM_PROGRAM_VERSION': '1.107.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-47bb7fe6-eec2-4f08-af84-d84887f24b0d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e[38;5;208m\\]\\u@\\h\\[\\e[0m\\]:\\[\\e[38;5;75m\\]\\W\\[\\e[0m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'container': 'podman', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-403388bb-1277-4416-82f2-4c19b73c3b92.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'PATH': '/home/jazz/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jazz/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jazz/.vscode-server/bin/994fd12f8d3a5aa16f17d42c041e5809167e845a/bin/remote-cli:/opt/ros/jazzy/bin:/home/jazz/.local/bin:/home/jazz/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-403388bb-1277-4416-82f2-4c19b73c3b92.sock","/tmp/.X11-unix/X2","/home/jazz/.gnupg/S.gpg-agent"]', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-85dcb23a1e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-403388bb-1277-4416-82f2-4c19b73c3b92.sock', 'AMENT_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install/yathra:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X2', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra', 'CONTAINER_ID': 'ros2_jazzy', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jazz/Projects/Yathra_ROS2_Control/install/yathra:/opt/ros/jazzy'}), 'shell': False}
+[0.101664] (-) TimerEvent: {}
+[0.202835] (-) TimerEvent: {}
+[0.304915] (-) TimerEvent: {}
+[0.407240] (-) TimerEvent: {}
+[0.508316] (-) TimerEvent: {}
+[0.609376] (-) TimerEvent: {}
+[0.698495] (yathra) StdoutLine: {'line': b'[ 50%] Built target yathra_serial\n'}
+[0.709581] (-) TimerEvent: {}
+[0.810506] (-) TimerEvent: {}
+[0.890818] (yathra) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o\x1b[0m\n'}
+[0.910853] (-) TimerEvent: {}
+[1.012058] (-) TimerEvent: {}
+[1.114015] (-) TimerEvent: {}
+[1.218380] (-) TimerEvent: {}
+[1.319402] (-) TimerEvent: {}
+[1.420410] (-) TimerEvent: {}
+[1.521579] (-) TimerEvent: {}
+[1.622729] (-) TimerEvent: {}
+[1.724127] (-) TimerEvent: {}
+[1.830710] (-) TimerEvent: {}
+[1.933240] (-) TimerEvent: {}
+[2.034528] (-) TimerEvent: {}
+[2.135800] (-) TimerEvent: {}
+[2.237393] (-) TimerEvent: {}
+[2.338743] (-) TimerEvent: {}
+[2.439721] (-) TimerEvent: {}
+[2.540905] (-) TimerEvent: {}
+[2.641956] (-) TimerEvent: {}
+[2.743252] (-) TimerEvent: {}
+[2.844538] (-) TimerEvent: {}
+[2.945869] (-) TimerEvent: {}
+[3.046828] (-) TimerEvent: {}
+[3.148049] (-) TimerEvent: {}
+[3.249343] (-) TimerEvent: {}
+[3.350342] (-) TimerEvent: {}
+[3.451460] (-) TimerEvent: {}
+[3.552580] (-) TimerEvent: {}
+[3.653799] (-) TimerEvent: {}
+[3.754832] (-) TimerEvent: {}
+[3.855970] (-) TimerEvent: {}
+[3.957354] (-) TimerEvent: {}
+[4.046431] (yathra) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/dummy_depth.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knav_msgs/msg/odometry.hpp: No such file or directory\n'}
+[4.050343] (yathra) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K"nav_msgs/msg/odometry.hpp"\x1b[m\x1b[K\n'}
+[4.051524] (yathra) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.052411] (yathra) StderrLine: {'line': b'compilation terminated.\n'}
+[4.057554] (-) TimerEvent: {}
+[4.069002] (yathra) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dummy_depth.dir/build.make:76: CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o] Error 1\n'}
+[4.071129] (yathra) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dummy_depth.dir/all] Error 2\n'}
+[4.072779] (yathra) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.089288] (yathra) CommandEnded: {'returncode': 2}
+[4.159102] (-) TimerEvent: {}
+[4.186251] (yathra) JobEnded: {'identifier': 'yathra', 'rc': 2}
+[4.199806] (-) EventReactorShutdown: {}

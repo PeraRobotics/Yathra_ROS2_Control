@@ -1,0 +1,23 @@
+[ 50%] Built target yathra_serial
+[ 75%] [32mBuilding CXX object CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dummy_depth[0m
+[100%] Built target dummy_depth
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/dummy_depth
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/yathra_serial
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.sh
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.dsv
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.bash
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.sh
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.zsh
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.dsv
+-- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.dsv
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/packages/yathra
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig.cmake
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig-version.cmake
+-- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.xml

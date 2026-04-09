@@ -1,0 +1,11 @@
+[0.099s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8
+[0.698s] [ 50%] Built target yathra_serial
+[0.890s] [ 75%] [32mBuilding CXX object CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o[0m
+[4.048s] [01m[K/home/jazz/Projects/Yathra_ROS2_Control/src/yathra/src/dummy_depth.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/odometry.hpp: No such file or directory
+[4.050s]     8 | #include [01;31m[K"nav_msgs/msg/odometry.hpp"[m[K
+[4.051s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.052s] compilation terminated.
+[4.069s] gmake[2]: *** [CMakeFiles/dummy_depth.dir/build.make:76: CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o] Error 1
+[4.071s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dummy_depth.dir/all] Error 2
+[4.072s] gmake: *** [Makefile:146: all] Error 2
+[4.091s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8

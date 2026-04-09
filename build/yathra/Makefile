@@ -210,6 +210,43 @@ yathra_serial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yathra_serial.dir/build.make CMakeFiles/yathra_serial.dir/build
 .PHONY : yathra_serial/fast
 
+#=============================================================================
+# Target rules for targets named dummy_depth
+
+# Build rule for target.
+dummy_depth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dummy_depth
+.PHONY : dummy_depth
+
+# fast build rule for target.
+dummy_depth/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dummy_depth.dir/build.make CMakeFiles/dummy_depth.dir/build
+.PHONY : dummy_depth/fast
+
+src/dummy_depth.o: src/dummy_depth.cpp.o
+.PHONY : src/dummy_depth.o
+
+# target to build an object file
+src/dummy_depth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dummy_depth.dir/build.make CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o
+.PHONY : src/dummy_depth.cpp.o
+
+src/dummy_depth.i: src/dummy_depth.cpp.i
+.PHONY : src/dummy_depth.i
+
+# target to preprocess a source file
+src/dummy_depth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dummy_depth.dir/build.make CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.i
+.PHONY : src/dummy_depth.cpp.i
+
+src/dummy_depth.s: src/dummy_depth.cpp.s
+.PHONY : src/dummy_depth.s
+
+# target to generate assembly for a file
+src/dummy_depth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dummy_depth.dir/build.make CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.s
+.PHONY : src/dummy_depth.cpp.s
+
 src/yathra_serial.o: src/yathra_serial.cpp.o
 .PHONY : src/yathra_serial.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... yathra_uninstall"
+	@echo "... dummy_depth"
 	@echo "... yathra_serial"
+	@echo "... src/dummy_depth.o"
+	@echo "... src/dummy_depth.i"
+	@echo "... src/dummy_depth.s"
 	@echo "... src/yathra_serial.o"
 	@echo "... src/yathra_serial.i"
 	@echo "... src/yathra_serial.s"

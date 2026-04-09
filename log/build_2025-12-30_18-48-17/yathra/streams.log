@@ -1,0 +1,50 @@
+[0.109s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8
+[0.774s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.536s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.633s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.047s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.163s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.161s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.181s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.783s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.454s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.601s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[6.019s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.845s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.847s] -- Configured cppcheck include dirs: 
+[6.848s] -- Configured cppcheck exclude dirs and/or files: 
+[6.853s] -- Added test 'lint_cmake' to check CMake code style
+[6.861s] -- Added test 'uncrustify' to check C / C++ code style
+[6.862s] -- Configured uncrustify additional arguments: 
+[6.865s] -- Added test 'xmllint' to check XML markup files
+[6.875s] -- Configuring done (6.2s)
+[7.036s] -- Generating done (0.1s)
+[7.088s] -- Build files have been written to: /home/jazz/Projects/Yathra_ROS2_Control/build/yathra
+[7.341s] [ 25%] [32mBuilding CXX object CMakeFiles/dummy_depth.dir/src/dummy_depth.cpp.o[0m
+[7.653s] [ 75%] Built target yathra_serial
+[38.798s] [100%] [32m[1mLinking CXX executable dummy_depth[0m
+[40.375s] [100%] Built target dummy_depth
+[40.433s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jazz/Projects/Yathra_ROS2_Control/build/yathra -- -j8 -l8
+[40.486s] Invoking command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jazz/Projects/Yathra_ROS2_Control/build/yathra
+[40.524s] -- Install configuration: ""
+[40.532s] -- Execute custom install script
+[40.534s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/dummy_depth
+[40.575s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/lib/yathra/yathra_serial
+[40.577s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/package_run_dependencies/yathra
+[40.580s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/parent_prefix_path/yathra
+[40.582s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.sh
+[40.584s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/ament_prefix_path.dsv
+[40.586s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.sh
+[40.588s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/environment/path.dsv
+[40.590s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.bash
+[40.592s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.sh
+[40.593s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.zsh
+[40.595s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/local_setup.dsv
+[40.597s] -- Symlinking: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.dsv
+[40.654s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/ament_index/resource_index/packages/yathra
+[40.655s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig.cmake
+[40.656s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/cmake/yathraConfig-version.cmake
+[40.659s] -- Up-to-date symlink: /home/jazz/Projects/Yathra_ROS2_Control/install/yathra/share/yathra/package.xml
+[40.668s] Invoked command in '/home/jazz/Projects/Yathra_ROS2_Control/build/yathra' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jazz/Projects/Yathra_ROS2_Control/build/yathra

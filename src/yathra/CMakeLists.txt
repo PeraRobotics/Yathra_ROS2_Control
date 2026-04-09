@@ -11,8 +11,11 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 add_executable(yathra_serial src/yathra_serial.cpp)
+add_executable(dummy_depth src/dummy_depth.cpp)
+
 ament_target_dependencies(yathra_serial 
   rclcpp 
   std_msgs 
@@ -20,6 +23,12 @@ ament_target_dependencies(yathra_serial
   geometry_msgs
 )
 
+ament_target_dependencies(dummy_depth rclcpp geometry_msgs nav_msgs)
+
+install(TARGETS
+  dummy_depth
+  DESTINATION lib/${PROJECT_NAME})
+  
 install(TARGETS
   yathra_serial
   DESTINATION lib/${PROJECT_NAME}

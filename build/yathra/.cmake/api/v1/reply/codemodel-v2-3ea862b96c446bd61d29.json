@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,12 +36,20 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dummy_depth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dummy_depth-b111f2005f4e99190228.json",
+					"name" : "dummy_depth",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
@@ -51,7 +60,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "yathra_serial::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-yathra_serial-4126c80e88a0031da568.json",
+					"jsonFile" : "target-yathra_serial-2a71049103349279e292.json",
 					"name" : "yathra_serial",
 					"projectIndex" : 0
 				},
